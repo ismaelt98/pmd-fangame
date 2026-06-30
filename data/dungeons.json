@@ -1,0 +1,47 @@
+{
+  "test_dungeon": {
+    "id": "test_dungeon",
+    "name": "Mazmorra de Prueba",
+    "floors": 5,
+    "floor_size": {"width": 30, "height": 20},
+    "min_rooms": 5,
+    "max_rooms": 12,
+    "biome": "cave",
+    "pokemon_spawns": ["bulbasaur", "charmander", "squirtle", "pikachu"],
+    "level_range": {"min": 3, "max": 7},
+    "items": ["oran_berry", "apple", "poke_ball", "escape_orb"],
+    "trap_rate": 0.05,
+    "weather": "none",
+    "boss_floor": false
+  },
+  "tiny_woods": {
+    "id": "tiny_woods",
+    "name": "Bosque Miniatura",
+    "floors": 3,
+    "floor_size": {"width": 25, "height": 15},
+    "min_rooms": 4,
+    "max_rooms": 8,
+    "biome": "forest",
+    "pokemon_spawns": ["bulbasaur", "pikachu"],
+    "level_range": {"min": 1, "max": 3},
+    "items": ["oran_berry", "apple"],
+    "trap_rate": 0.02,
+    "weather": "none",
+    "boss_floor": false
+  },
+  "thunder_cave": {
+    "id": "thunder_cave",
+    "name": "Cueva Trueno",
+    "floors": 10,
+    "floor_size": {"width": 30, "height": 25},
+    "min_rooms": 6,
+    "max_rooms": 14,
+    "biome": "cave",
+    "pokemon_spawns": ["pikachu"],
+    "level_range": {"min": 10, "max": 15},
+    "items": ["oran_berry", "apple", "reviver_seed"],
+    "trap_rate": 0.08,
+    "weather": "none",
+    "boss_floor": true
+  }
+}

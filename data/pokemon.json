@@ -1,0 +1,90 @@
+{
+  "bulbasaur": {
+    "id": "bulbasaur",
+    "name": "Bulbasaur",
+    "types": ["grass", "poison"],
+    "base_stats": {"hp": 45, "atk": 49, "def": 49, "spa": 65, "spd": 65, "spe": 45},
+    "moves_levelup": {
+      "1": ["tackle", "growl"],
+      "3": ["vine_whip"],
+      "6": ["growth"],
+      "9": ["leech_seed"],
+      "12": ["razor_leaf"],
+      "15": ["poison_powder"],
+      "18": ["sleep_powder"],
+      "21": ["take_down"],
+      "24": ["sweet_scent"],
+      "27": ["worry_seed"],
+      "30": ["synthesis"],
+      "33": ["seed_bomb"],
+      "36": ["solar_beam"]
+    },
+    "abilities": ["overgrow"],
+    "evolution": {"into": "ivysaur", "level": 16}
+  },
+  "charmander": {
+    "id": "charmander",
+    "name": "Charmander",
+    "types": ["fire"],
+    "base_stats": {"hp": 39, "atk": 52, "def": 43, "spa": 60, "spd": 50, "spe": 65},
+    "moves_levelup": {
+      "1": ["scratch", "growl"],
+      "4": ["ember"],
+      "8": ["smokescreen"],
+      "12": ["dragon_breath"],
+      "16": ["fire_fang"],
+      "20": ["slash"],
+      "24": ["flamethrower"],
+      "28": ["scary_face"],
+      "32": ["fire_spin"],
+      "36": ["inferno"]
+    },
+    "abilities": ["blaze"],
+    "evolution": {"into": "charmeleon", "level": 16}
+  },
+  "squirtle": {
+    "id": "squirtle",
+    "name": "Squirtle",
+    "types": ["water"],
+    "base_stats": {"hp": 44, "atk": 48, "def": 65, "spa": 50, "spd": 64, "spe": 43},
+    "moves_levelup": {
+      "1": ["tackle", "tail_whip"],
+      "3": ["water_gun"],
+      "6": ["withdraw"],
+      "9": ["rapid_spin"],
+      "12": ["bite"],
+      "15": ["water_pulse"],
+      "18": ["protect"],
+      "21": ["rain_dance"],
+      "24": ["aqua_tail"],
+      "27": ["skull_bash"],
+      "30": ["iron_defense"],
+      "33": ["hydro_pump"]
+    },
+    "abilities": ["torrent"],
+    "evolution": {"into": "wartortle", "level": 16}
+  },
+  "pikachu": {
+    "id": "pikachu",
+    "name": "Pikachu",
+    "types": ["electric"],
+    "base_stats": {"hp": 35, "atk": 55, "def": 40, "spa": 50, "spd": 50, "spe": 90},
+    "moves_levelup": {
+      "1": ["thunder_shock", "growl"],
+      "4": ["tail_whip"],
+      "8": ["quick_attack"],
+      "12": ["electro_ball"],
+      "16": ["thunder_wave"],
+      "20": ["double_team"],
+      "24": ["spark"],
+      "28": ["slam"],
+      "32": ["discharge"],
+      "36": ["agility"],
+      "40": ["thunderbolt"],
+      "44": ["light_screen"],
+      "48": ["thunder"]
+    },
+    "abilities": ["static"],
+    "evolution": {"into": "raichu", "method": "thunder_stone"}
+  }
+}

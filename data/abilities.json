@@ -1,0 +1,7 @@
+{
+  "overgrow":    {"id": "overgrow", "name": "Espesura", "effect": "boost_grass_at_low_hp"},
+  "blaze":       {"id": "blaze", "name": "Mar Llamas", "effect": "boost_fire_at_low_hp"},
+  "torrent":     {"id": "torrent", "name": "Torrente", "effect": "boost_water_at_low_hp"},
+  "static":      {"id": "static", "name": "Elec. Estática", "effect": "contact_may_paralyze"},
+  "lightning_rod": {"id": "lightning_rod", "name": "Pararrayos", "effect": "absorb_electric"}
+}

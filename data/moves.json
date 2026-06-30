@@ -1,0 +1,15 @@
+{
+  "tackle":        {"id": "tackle", "name": "Placaje", "type": "normal", "category": "physical", "power": 40, "accuracy": 100, "pp": 35, "range": 1},
+  "scratch":       {"id": "scratch", "name": "Arañazo", "type": "normal", "category": "physical", "power": 40, "accuracy": 100, "pp": 35, "range": 1},
+  "growl":         {"id": "growl", "name": "Gruñido", "type": "normal", "category": "status", "power": 0, "accuracy": 100, "pp": 40, "range": 1, "effect": "atk_down"},
+  "tail_whip":     {"id": "tail_whip", "name": "Látigo", "type": "normal", "category": "status", "power": 0, "accuracy": 100, "pp": 30, "range": 1, "effect": "def_down"},
+  "ember":         {"id": "ember", "name": "Ascuas", "type": "fire", "category": "special", "power": 40, "accuracy": 100, "pp": 25, "range": 1},
+  "water_gun":     {"id": "water_gun", "name": "Pistola Agua", "type": "water", "category": "special", "power": 40, "accuracy": 100, "pp": 25, "range": 1},
+  "vine_whip":     {"id": "vine_whip", "name": "Látigo Cepa", "type": "grass", "category": "physical", "power": 45, "accuracy": 100, "pp": 25, "range": 1},
+  "thunder_shock": {"id": "thunder_shock", "name": "Impactrueno", "type": "electric", "category": "special", "power": 40, "accuracy": 100, "pp": 30, "range": 1},
+  "quick_attack":  {"id": "quick_attack", "name": "Ataque Rápido", "type": "normal", "category": "physical", "power": 40, "accuracy": 100, "pp": 30, "range": 2},
+  "flamethrower":  {"id": "flamethrower", "name": "Lanzallamas", "type": "fire", "category": "special", "power": 90, "accuracy": 100, "pp": 15, "range": 1},
+  "thunderbolt":   {"id": "thunderbolt", "name": "Rayo", "type": "electric", "category": "special", "power": 90, "accuracy": 100, "pp": 15, "range": 1},
+  "hydro_pump":    {"id": "hydro_pump", "name": "Hidrobomba", "type": "water", "category": "special", "power": 110, "accuracy": 80, "pp": 5, "range": 1},
+  "solar_beam":    {"id": "solar_beam", "name": "Rayo Solar", "type": "grass", "category": "special", "power": 120, "accuracy": 100, "pp": 10, "range": 1}
+}

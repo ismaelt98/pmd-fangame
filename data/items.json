@@ -1,0 +1,12 @@
+{
+  "oran_berry":   {"id": "oran_berry", "name": "Baya Aranja", "type": "berry", "effect": "heal", "value": 10, "price": 50},
+  "apple":        {"id": "apple", "name": "Manzana", "type": "food", "effect": "restore_belly", "value": 50, "price": 25},
+  "big_apple":    {"id": "big_apple", "name": "Manzana Grande", "type": "food", "effect": "restore_belly", "value": 100, "price": 50},
+  "max_elixir":   {"id": "max_elixir", "name": "Máx. Elixir", "type": "drink", "effect": "restore_pp", "value": 99, "price": 250},
+  "reviver_seed": {"id": "reviver_seed", "name": "Semilla Revivir", "type": "seed", "effect": "auto_revive", "value": 1, "price": 800},
+  "escape_orb":   {"id": "escape_orb", "name": "Orbe Huida", "type": "orb", "effect": "escape_dungeon", "value": 0, "price": 150},
+  "poke_ball":    {"id": "poke_ball", "name": "Poké Ball", "type": "ball", "effect": "recruit", "value": 1, "price": 100},
+  "friend_bow":   {"id": "friend_bow", "name": "Lazo Amigo", "type": "held", "effect": "recruit_boost", "value": 10, "price": 500},
+  "power_band":   {"id": "power_band", "name": "Cinta Fuerte", "type": "held", "effect": "boost_atk", "value": 5, "price": 300},
+  "defense_scarf": {"id": "defense_scarf", "name": "Pañuelo Defensa", "type": "held", "effect": "boost_def", "value": 5, "price": 300}
+}

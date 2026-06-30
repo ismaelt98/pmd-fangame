@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://dungeonmain"]
+
+[ext_resource type="Script" path="res://scripts/dungeon/floor_manager.gd" id="1_floor"]
+[ext_resource type="Script" path="res://scripts/dungeon/dungeon_generator.gd" id="2_dungen"]
+[ext_resource type="Script" path="res://scripts/game_root.gd" id="3_gameroot"]
+
+[node name="GameRoot" type="Node2D"]
+script = ExtResource("3_gameroot")
+
+[node name="FloorManager" type="Node2D" parent="."]
+script = ExtResource("1_floor")
+tile_size = 16
+
+[node name="DungeonGenerator" type="Node" parent="FloorManager"]
+script = ExtResource("2_dungen")
+floor_width = 30
+floor_height = 20
+min_room_size = 4
+max_room_size = 8
+max_rooms = 10
+tile_size = 16
+
+[node name="Camera2D" type="Camera2D" parent="FloorManager"]
+enabled = true
+zoom = Vector2(1.5, 1.5)

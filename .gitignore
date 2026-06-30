@@ -1,0 +1,24 @@
+# Godot
+.godot/
+*.import
+*.translation
+export_presets.cfg
+
+# Godot 4 specific
+android/
+ios/
+web/
+
+# Imported assets
+.import/
+
+# Autoload
+*.uid
+
+# Mono
+.mono/
+data_*/
+
+# System
+.DS_Store
+Thumbs.db
